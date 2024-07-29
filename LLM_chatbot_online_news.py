@@ -96,7 +96,7 @@ def main():
         user_input(user_question, api_key)
 
     urls = []
-    for i in range(1):
+    for i in range(3):
         url = st.sidebar.text_input(f"URL {i+1}")
         if url:
             urls.append(url)
