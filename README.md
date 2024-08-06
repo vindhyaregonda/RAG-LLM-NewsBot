@@ -45,4 +45,6 @@ The app processes the articles, creates a vector store using FAISS, and uses the
 2. **Using LocalTunnel to expose the app**
 	```!curl ipv4.icanhazip.com ```
     ```!streamlit run app.py &>./logs.txt & npx localtunnel --port 8501 ```
+
+Streamlit app link: https://rag-lllm-newsbot-nxqhbws3bf4laexgqbmkcx.streamlit.app/
 	
